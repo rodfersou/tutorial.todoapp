@@ -31,24 +31,6 @@ class TestInstall(IntegrationTestCase):
         installer = api.portal.get_tool('portal_quickinstaller')
         self.assertTrue(installer.isProductInstalled('plone.app.dexterity'))
 
-    # types/Folder.xml
-    def test_folder_available_layouts(self):
-        """Test that our custom display layout (@@todo) is available on folders
-        and that the default ones are also still there.
-        """
-        layouts = self.portal.folder.getAvailableLayouts()
-        layout_ids = [id for id, title in layouts]
-
-        # default layouts
-        self.assertIn('folder_listing', layout_ids)
-        self.assertIn('folder_summary_view', layout_ids)
-        self.assertIn('folder_tabular_view', layout_ids)
-        self.assertIn('atct_album_view', layout_ids)
-        self.assertIn('folder_full_view', layout_ids)
-
-        # our custom one
-        self.assertIn('todo', layout_ids)
-
     # types/todo_item.xml
     def test_todo_item_installed(self):
         """Test that Todo Item content type is listed in portal_types."""
@@ -68,16 +50,6 @@ class TestInstall(IntegrationTestCase):
         for portal_type, chain in workflow.listChainOverrides():
             if portal_type in ('todo_item', ):
                 self.assertEquals(('todo_item_workflow',), chain)
-
-    # jsregistry.xml
-    def test_js_registered(self):
-        """Test if todoapp.js JavaScript file is registered in
-        portal_javascript.
-        """
-        resources = self.portal.portal_javascripts.getResources()
-        ids = [r.getId() for r in resources]
-
-        self.assertIn('++resource++tutorial.todoapp/todoapp.js', ids)
 
 
 def test_suite():
