@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012, Caipirinha Sprinters
+# Copyright (C) 2013, Caipirinha Sprinters
 # This file is distributed under the same license as the tutorial.todoapp package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tutorial.todoapp 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-15 15:01\n"
+"POT-Creation-Date: 2013-06-06 13:36\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,8 +16,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../tutorial.rst:11
-# 8241cba73be64dcbb7886fb799367dbe
+#: ../tutorial.rst:2
+# c0d1642f30624744b0437d80392d257f
+msgid "Github warning"
+msgstr ""
+
+#: ../tutorial.rst:17
+# 86e9ee7f22134700a760d57d3a4fb14b
 msgid "Part 3: Redistributing Your Work"
 msgstr ""
 

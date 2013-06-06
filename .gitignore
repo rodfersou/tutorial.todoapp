@@ -4,6 +4,7 @@
 bin
 develop-eggs
 docs/doctrees
+docs/locale/.doctrees/
 docs/html
 docs/make.bat
 eggs

@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012, Caipirinha Sprinters
+# Copyright (C) 2013, Caipirinha Sprinters
 # This file is distributed under the same license as the tutorial.todoapp package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tutorial.todoapp 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-15 15:01\n"
+"POT-Creation-Date: 2013-06-06 13:36\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,143 +16,143 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../chapter_4.rst:10
-# a029bd8f4f3d4861840d71a82aec0975
+#: ../chapter_4.rst:13
+# 834275055cfb42da8cd5ee745ec16447
 msgid "Chapter 4: Bling-bling"
 msgstr ""
 
-#: ../chapter_4.rst:12
-# a5074efaa4d44f7cbe96ef7d121d7407
+#: ../chapter_4.rst:15
+# 961690cab673465b800f91ce973bffcf
 msgid "As a reward for making it all the way to the end, we will help you add some fancy features to your project, otherwise known as bling. Unfortunately, bling means having to write JavaScript. Plone comes with jQuery so we can easily integrate."
 msgstr ""
 
-#: ../chapter_4.rst:17
-# 6116148dd1f44797b1ef03dcb1c31d9e
+#: ../chapter_4.rst:20
+# dc9a098954e841eeb8e47c5b8212ff33
 msgid "The final part of this tutorial will allow users to check and un-check items on their todo list  without having to load a new page request. Note that by developing the functionality in this order, 100% of the functionality of the application remains working even when javascript is disabled. Win!"
 msgstr ""
 
-#: ../chapter_4.rst:24
-# 695f643192204980af9759e26c36f181
+#: ../chapter_4.rst:27
+# 1f0a2c66093c4271acc408a2b16cc54b
 msgid "AJAX view"
 msgstr ""
 
-#: ../chapter_4.rst:26
-# 525e036bd185477185b5c18d65d38473
+#: ../chapter_4.rst:29
+# 4bf5e725b9674df0bdb067819ca39dae
 msgid "Before we add front-end bling, we need some code that can handle these requests coming in. Let's create a simple view that will update the object in context to a new state. Go to GitHub and copy the code for ``WorkflowTransition`` class in ``browser/todo.py``. This class represents a view that our AJAX code will call. You can also get the code with git, however note that now we are checking out code from master, as Chapter 4 is the last chapter and it's code is in the master branch."
 msgstr ""
 
-#: ../chapter_4.rst:38
-# c3bcb31a137f4d039ace8a6ba3ed8895
+#: ../chapter_4.rst:41
+# fd4f24b44d2542d98d3801e16b28623e
 msgid "Take a look at the ``WorkflowTransition`` class and the comments around the code. There are a couple of things to point out specific to this setup:"
 msgstr ""
 
-#: ../chapter_4.rst:45
-# 9bb56fafbca24f2dba335dc99ac1ecbf
+#: ../chapter_4.rst:48
+# 64a0d83c1a284d0aaafa201193908b45
 msgid "Tells us that this view should be called in the context of a Dexterity item. So if you try to go to this view from the portal root or anywhere in the site that is not a Dexterity item, Plone will return a 404 - not found error."
 msgstr ""
 
-#: ../chapter_4.rst:53
-# ba52baa0fd6143c88091c551ade10f6a
+#: ../chapter_4.rst:56
+# 5fe3fe4a3ca44af59107f3700e7ae4f9
 msgid "This tells us on which URL the view will be available on. In this case, on ``<url_to_plone_content_object>/update_workflow``."
 msgstr ""
 
-#: ../chapter_4.rst:60
-# 87c26b4022804f458e4c1c1c1bccc62e
+#: ../chapter_4.rst:63
+# 612d58070a094069a082eaa7ef5084b3
 msgid "``render`` is a special function that must be used. It is where all of the code must go when used with grok directives. This is the main block of code that will be executed."
 msgstr ""
 
-#: ../chapter_4.rst:68
-# 0bcf2dcff3c94fa49c88068d47d27253
+#: ../chapter_4.rst:71
+# 5c45faf8318d4d19babf911e5bbb3a0a
 msgid "``self.request`` is set by the base class, and anything based on BrowserView will have access to this variable. All of GET/POST parameters will be stored in ``self.request.form``."
 msgstr ""
 
-#: ../chapter_4.rst:78
-# 407e00fb62044892987c660fe4e37cb9
+#: ../chapter_4.rst:81
+# 201e3e0a3a154320a1987a0d0822cb62
 msgid "When working with JSON, it's not *required* to set the header content type, but when used with certain jQuery calls it is expected to have the header set correctly. If you don't set this, it will sometimes work and sometimes not. Get used to setting it!"
 msgstr ""
 
-#: ../chapter_4.rst:83
-# 51f32c0490fa473581049a6600892484
+#: ../chapter_4.rst:86
+# 4d283350eca94c8a823f016c9b919f4f
 msgid "Additionally, we return the result serialized as json by default. For making and testing JSON web service calls, keep in mind that they should do exactly one thing and no more. This makes it easy to integrate with Javascript and VERY easy to test. We'll see later on how easy it is to test this view."
 msgstr ""
 
-#: ../chapter_4.rst:88
-# fa2fd91d6917497fb71756e16165310f
+#: ../chapter_4.rst:91
+# 698f843281fa4580b34ae701562c375d
 msgid "Furthermore, before taking the plunge to wire up JavaScript, go directly to the url and test the change. For example, if you have an item at ``http://localhost:8080/Plone/todo-list/go-to-the-bathroom``, you can test the view by appending the view name and GET variables to the end of the item's url. However, you first need to restart your Zope first, so your Python files get reloaded!"
 msgstr ""
 
-#: ../chapter_4.rst:106
-# c2b5f8d424df46958515e74f7260ce5e
+#: ../chapter_4.rst:109
+# ae95b86951c44fc49946b0463cdae1ed
 msgid "For extra clarity: if you are not an expert in python, plone, AND javascript, I highly recommend integrating bling bling in the following order:"
 msgstr ""
 
-#: ../chapter_4.rst:108
-# 6e1a827f4f2d446391271956f8dacbe9
+#: ../chapter_4.rst:112
+# 05ede1b15fab4fd8ae835d6ae066cf41
 msgid "Write base view and **passing** test cases"
 msgstr ""
 
-#: ../chapter_4.rst:109
-# 43d6fb2e5e114e8d8797b1941433bfcc
+#: ../chapter_4.rst:113
+# 72284961279c4d92b4d830027dcfc3bd
 msgid "Test views in browser"
 msgstr ""
 
-#: ../chapter_4.rst:110
-# bfb5f793114b468c8311af8fd808fefb
+#: ../chapter_4.rst:114
+# ddcd2b22021e45f5898d862f1f51aea4
 msgid "Make ajax interactive"
 msgstr ""
 
-#: ../chapter_4.rst:112
-# 8d92cb4769724c40bc36a63ecd4a6072
+#: ../chapter_4.rst:116
+# cf40962c10f0496c99b44a40cae9e134
 msgid "Starting with bling from the start will only bring you pain."
 msgstr ""
 
-#: ../chapter_4.rst:116
-# 022e65f84faa42acb372ad8f2cda5770
+#: ../chapter_4.rst:120
+# af90a033c4594f90ad966a67b5dc11b0
 msgid "Custom JavaScript"
 msgstr ""
 
-#: ../chapter_4.rst:118
-# b61ecf6910824deb99838d0adf2898d4
+#: ../chapter_4.rst:122
+# 7bf0ebc05ce24c00a5dc4d811a39bbb2
 msgid "Now that we know the view is working, let's add some AJAX handling on the top of it. Checkout the Javascript file and a JavaScript registry file into your working directory:"
 msgstr ""
 
-#: ../chapter_4.rst:127
-# b0350d601bfb4681ab33e2e8e50decaa
+#: ../chapter_4.rst:131
+# 9157c99a20c04178a23f466d0910343c
 msgid "``jsregistry.xml`` contains all configuration needed to tell Plone how it should register and use our JavaScript. It has a lot of options that are pretty self explanatory (if you think like a machine)."
 msgstr ""
 
-#: ../chapter_4.rst:135
-# 9ba30473a1d949359525af208a2cac88
+#: ../chapter_4.rst:139
+# f245a3c40f794510a9a9c2d06f49d422
 msgid "Trying it out!"
 msgstr ""
 
-#: ../chapter_4.rst:137
-# 4de678be9d1f451da4bb588fdaf88b9a
+#: ../chapter_4.rst:141
+# c934d3454bd74e049217572afaf45fd3
 msgid "Holy moley you made it! Restart Zope (to reload Python files), reactivate the product (to reimport XML files), do a hard reload in your web browser (to clear any caches) and check out your todo list. The todo items should toggle between complete and incomplete without the page reloading. Sweet!"
 msgstr ""
 
-#: ../chapter_4.rst:143
-# c25a6603a82442ec8927afedcb39c86a
+#: ../chapter_4.rst:147
+# d1fa8955b61d41cdabca2351dd7f308e
 msgid "Tests"
 msgstr ""
 
-#: ../chapter_4.rst:145
-# 3e38bfe4563548189a54057e2597a107
+#: ../chapter_4.rst:149
+# cf042e84228f476f8b8b29043b0fc6d1
 msgid "As always, let's add tests!  First add the following snippet to ``test_setup`` to verify that your JavaScript is registered in Plone."
 msgstr ""
 
-#: ../chapter_4.rst:161
-# 7f9c1d8be10a4e458eaf44e45ee173a5
+#: ../chapter_4.rst:165
+# 5a15d5b779454adba42b3dcda0c4c5d8
 msgid "Lastly, add a new test module: ``test_workflow.py``. Download it from GitHub, put and it in your ``tests`` folder and run tests. Then fiddle around with it to see what it does. As always, you can use git to get the file."
 msgstr ""
 
-#: ../chapter_4.rst:171
-# 52055790e8244b4b8cb8f68763d4eeab
+#: ../chapter_4.rst:175
+# dd0a4430ea904d18a4d725a7d75130a6
 msgid "Troubleshooting"
 msgstr ""
 
-#: ../chapter_4.rst:173
-# 241217d109754443a3c51c9a40fdcec1
+#: ../chapter_4.rst:177
+# b4cd5958a6e8426cade28d11db09fc67
 msgid "If something goes wrong you can always go to GitHub and see how the `code in master <https://github.com/collective/tutorial.todoapp/>`_ should look like and compare this to what you have on your local machine."
 msgstr ""
 

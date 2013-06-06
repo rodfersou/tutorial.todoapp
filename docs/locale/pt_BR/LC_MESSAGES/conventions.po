@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012, Caipirinha Sprinters
+# Copyright (C) 2013, Caipirinha Sprinters
 # This file is distributed under the same license as the tutorial.todoapp package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tutorial.todoapp 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-15 15:01\n"
+"POT-Creation-Date: 2013-06-06 13:36\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,195 +16,195 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../conventions.rst:5
-# d6d53e5aadc24d62ad0aeaf05fb3432a
+#: ../conventions.rst:8
+# edc1725ef6e6476e9feab1cc2d1df0d1
 msgid "Conventions"
 msgstr ""
 
-#: ../conventions.rst:8
-# e0d288a72118439c87fd03c2e7900359
+#: ../conventions.rst:11
+# 24f383ea280e4dfbae0c9c5139d6d37b
 msgid "Line length"
 msgstr ""
 
-#: ../conventions.rst:10
-# f1c03a9872374701a36a1357871371cf
+#: ../conventions.rst:13
+# 2e80e4195ffa4ede9f0551edd1ee3428
 msgid "All Python code in this package should be PEP8 valid. However, we don't enforce the 80-char line length rule. It is encouraged to have your code formatted in 80-char lines, but somewhere it's just more readable to break this rule for a few characters. Long and descriptive test method names are a good example of this."
 msgstr ""
 
-#: ../conventions.rst:17
-# 936b50f785224994a408d1be7b38c084
+#: ../conventions.rst:20
+# 5ca2aae1810d411088c9e6b1e7ed7929
 msgid "Configuring your editor to display a line at 80th column helps a lot here and saves time."
 msgstr ""
 
-#: ../conventions.rst:21
-# 1322eae93e8e4f398868e872513cecd1
+#: ../conventions.rst:24
+# e08d2e96f8c8478aa22118e693b4d09b
 msgid "The line length rules also applies to non-python source files, such as documentation .rst files."
 msgstr ""
 
-#: ../conventions.rst:25
-# 827c89b5ad714f92b0e30075f38f9c1c
+#: ../conventions.rst:28
+# 00c89f42e3b2405d8313d11c0124cae1
 msgid "About imports"
 msgstr ""
 
-#: ../conventions.rst:27
-# 4907befb260a4a318629f2ebcadf9541
+#: ../conventions.rst:30
+# 64677efa6a424536b5499bb664c943a9
 msgid "Don't use * to import `everything` from a module."
 msgstr ""
 
-#: ../conventions.rst:28
-# 6dc52027e5884c83a27d0e4a2c1cc30a
+#: ../conventions.rst:31
+# 22f52e9c50d64ea58622ddf54aca4ec3
 msgid "Don't use commas to import multiple stuff on a single line."
 msgstr ""
 
-#: ../conventions.rst:29
-# c540dfc1eceb4f1d8f8a9d385f7fa1ef
+#: ../conventions.rst:32
+# cdc9809f05cf4482936e591072420703
 msgid "Don't use relative paths."
 msgstr ""
 
-#: ../conventions.rst:36
-#: ../conventions.rst:60
-# a79769eafcd34074b6d772eb0033f9c7
-# 147cc45b628249f1b7e23c3c1bb853d7
+#: ../conventions.rst:39
+#: ../conventions.rst:63
+# 3353414f32134cb89af694867b9d2f8d
+# 477254a54aaa46869bb8d6c5fffb7a67
 msgid "instead of"
 msgstr ""
 
-#: ../conventions.rst:46
-# 10f44b1ea02a48cdb3106960253febf5
+#: ../conventions.rst:49
+# e5eda4343f984a839211cdbf9eb6bb14
 msgid "Sort imports"
 msgstr ""
 
-#: ../conventions.rst:48
-# 7f070f861e2548029f80ac5c455c44be
+#: ../conventions.rst:51
+# dd8e2222a2194f9e81ab9305ac5a0a48
 msgid "As another imports stylistic guide: Imports of code from other modules should always be alphabetically sorted with no empty lines between imports. The only exception to this rule is to keep one empty line between a group of ``from x import y`` and a group of ``import y`` imports."
 msgstr ""
 
-#: ../conventions.rst:71
-# 4d57c58e64b249c6a89671b032940d2a
+#: ../conventions.rst:74
+# d7c9776a8bcb4345a179627718c62a94
 msgid "Commit checklist"
 msgstr ""
 
-#: ../conventions.rst:73
-# cede3f0094174405a398c1fc88ac0ef7
+#: ../conventions.rst:76
+# 303cf5fd9f9f43b591e2b5b2031758d6
 msgid "Before every commit you should:"
 msgstr ""
 
-#: ../conventions.rst:75
-# 975659977c2049db8257af5b09403f49
+#: ../conventions.rst:78
+# 08a904e9c75248c7863da2880cb81c4b
 msgid "Run :ref:`unit-tests`."
 msgstr ""
 
-#: ../conventions.rst:76
-# 2cb96386ca2446a590711fba2fddec29
+#: ../conventions.rst:79
+# f3e05c3b14d94c23bdbc239d9bdd16ec
 msgid "Run :ref:`syntax-validation`."
 msgstr ""
 
-#: ../conventions.rst:77
-# 4218bbb8ffdf44749659d8bb17560409
+#: ../conventions.rst:80
+# 19facf1370c84b1d83124bbfc59319dc
 msgid "Add an entry to :ref:`changelog` (if applicable)."
 msgstr ""
 
-#: ../conventions.rst:78
-# 1dce8a5d3f294553b975e16ddca30658
+#: ../conventions.rst:81
+# 1d63d0b54e744f6bbe27ccebe2558468
 msgid "Add/modify :ref:`sphinx-docs` (if applicable)."
 msgstr ""
 
-#: ../conventions.rst:81
-# 05b2ee1f789045f5aebc32562d6453ef
+#: ../conventions.rst:84
+# 1a24dc97e79e4184b69853d11cb42001
 msgid "All syntax checks and all tests can be run with a single command:"
 msgstr ""
 
-#: ../conventions.rst:90
-# 3210ea5b3faa4cf2a665e4ecc02181d4
+#: ../conventions.rst:93
+# e7a1b4d3886c4ae2b77ccdf211c3e434
 msgid "Unit tests"
 msgstr ""
 
-#: ../conventions.rst:92
-# f09d59eeb84c49d68075f723782fab2f
+#: ../conventions.rst:95
+# b846e71f248f497abe3daf8d14962f95
 msgid "Un-tested code is broken code."
 msgstr ""
 
-#: ../conventions.rst:94
-# 85e7c150e75146d8b502fa377148e1cd
+#: ../conventions.rst:97
+# daf62ecb18ca4129ae54d84b5db63361
 msgid "For every feature you add to the codebase you must also add tests for it. Also write a test for every bug you fix to ensure it doesn't crop up again in the future."
 msgstr ""
 
-#: ../conventions.rst:98
-# b6b2d8fb51b04b199941cd4df4ee084d
+#: ../conventions.rst:101
+# 1a0c7b10116f4a8b826ec13fa2c00b73
 msgid "You run tests like this:"
 msgstr ""
 
-#: ../conventions.rst:108
-# 4378245a32b5445ca3cb5a3b50fc47f6
+#: ../conventions.rst:111
+# 04921d3c396e440f858052feebb319e5
 msgid "Syntax validation"
 msgstr ""
 
-#: ../conventions.rst:110
-# 68448627fd0c413aaa32067d4251d36c
+#: ../conventions.rst:113
+# 14624ac8771548399523d9e5e412d92e
 msgid "All Python source code should be `PEP-8` valid and checked for syntax errors. Tools for checking this are `pep8` and `pyflakes`."
 msgstr ""
 
-#: ../conventions.rst:113
-# dd1639b5c4274f3b9f327e3d392b81c3
+#: ../conventions.rst:116
+# 8cf056a918bd490c8a9b11de7b66869d
 msgid "To validate your source code, run the following two commands:"
 msgstr ""
 
-#: ../conventions.rst:122
-# 0a40542a976d466290afec034d2892c1
+#: ../conventions.rst:125
+# 076b60d71a6f4b18be6405b6e3229efc
 msgid "It pays off to invest a little time to make your editor run `pep8` and `pyflakes` on a file every time you save that file. Saves lots of time in the long run."
 msgstr ""
 
-#: ../conventions.rst:130
-# 0dbf0388fa1d40c18c4a9329175cc574
+#: ../conventions.rst:133
+# 6975923528654b53ab81c88567319eb1
 msgid "Changelog"
 msgstr ""
 
-#: ../conventions.rst:132
-# 712db0dacd924912ba84d0fda87ce097
+#: ../conventions.rst:135
+# 844c221f7b9b484f9eafc10033b94c8e
 msgid "Feature-level changes to code are tracked inside ``docs/HISTORY.txt``. Examples:"
 msgstr ""
 
-#: ../conventions.rst:134
-# 8825cc6e11c9451b9678668f634fbb34
+#: ../conventions.rst:137
+# 08944bcd4e8640f4871f963145516006
 msgid "added feature X"
 msgstr ""
 
-#: ../conventions.rst:135
-# b86e91173ca84b488509d579bc8e162b
+#: ../conventions.rst:138
+# 491b54c55c084ba0b09150b82d1bb87d
 msgid "removed Y"
 msgstr ""
 
-#: ../conventions.rst:136
-# c3df56fc35884cdea9e06c658fb7fe0e
+#: ../conventions.rst:139
+# ce78dccd3289462197f08bbb21d04b93
 msgid "fixed bug Z"
 msgstr ""
 
-#: ../conventions.rst:138
-# 93fd31324c5a4a3bb24a62db80b933a3
+#: ../conventions.rst:141
+# 8dda8a5273f047c595e98cdfddde78ef
 msgid "Add an entry every time you add/remove a feature, fix a bug, etc."
 msgstr ""
 
-#: ../conventions.rst:143
-# 688f001c7cd348c8b90a581279d5ca0c
+#: ../conventions.rst:146
+# 6f11d0105df749e2b08f8fd9ee535d15
 msgid "Sphinx documentation"
 msgstr ""
 
-#: ../conventions.rst:145
-# 35196ac7243e437dbfc5697e583c8f02
+#: ../conventions.rst:148
+# 75ba11c7a97e4111b84f49305a32af88
 msgid "Un-documented code is broken code."
 msgstr ""
 
-#: ../conventions.rst:147
-# c3a09cc34af04ae78fca04f0d4f31340
+#: ../conventions.rst:150
+# e73dafe84e2b423c8f5d04c09d132d17
 msgid "For every feature you add to the codebase you should also add documentation for it to ``docs/``."
 msgstr ""
 
-#: ../conventions.rst:150
-# a472db0d355c4500a1895b2d36ee9a79
+#: ../conventions.rst:153
+# 743701186f3c4f9390dccef4334db9ad
 msgid "After adding/modifying documentation, re-build `Sphinx` and check how it is displayed:"
 msgstr ""
 
-#: ../conventions.rst:158
-# f461fe4f4236441d86e141b464aa8ed4
+#: ../conventions.rst:161
+# da25c2357ca54f52a21c686b56b81455
 msgid "Documentation is automatically generated from these source files every time you push your code to GitHub. The post-commit hook is handled by ReadTheDocs and the results are visible at http://tutorialtodoapp.readthedocs.org/en/latest/."
 msgstr ""
 

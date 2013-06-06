@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012, Caipirinha Sprinters
+# Copyright (C) 2013, Caipirinha Sprinters
 # This file is distributed under the same license as the tutorial.todoapp package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tutorial.todoapp 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-15 15:01\n"
+"POT-Creation-Date: 2013-06-06 13:36\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,38 +16,38 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../LICENSE.rst:2
-# b1bdcc18947e486889a436d331a30efd
+#: ../LICENSE.rst:5
+# 62381046c8dd41be8e93e78f8b322240
 msgid "License (3-clause BSD)"
 msgstr ""
 
-#: ../LICENSE.rst:4
-# 6bf5d8f9d5db4ea0bffc8e31a0751f8c
+#: ../LICENSE.rst:7
+# b32c7f1cf6b04fa992914d4257f29510
 msgid "Copyright (c) 2012, Caipirinha Sprinters. All rights reserved."
 msgstr ""
 
-#: ../LICENSE.rst:6
-# cac60e7e3447468eb977f929485005b4
+#: ../LICENSE.rst:9
+# 11ed9161f6334431b1a7c526214c25c9
 msgid "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:"
 msgstr ""
 
-#: ../LICENSE.rst:9
-# ce1f7cd6410e49d7bad0ce6bcaf6010a
+#: ../LICENSE.rst:12
+# 622dd344c6464e138e08fd1157cafb34
 msgid "Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer."
 msgstr ""
 
-#: ../LICENSE.rst:12
-# b81eef8556474e87a334f72fa5cae37a
+#: ../LICENSE.rst:15
+# 63e9d9e7bc3746a38cf178bb9e7cecd7
 msgid "Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution."
 msgstr ""
 
-#: ../LICENSE.rst:16
-# 1e219c04fd6846f4a03ce5c8bf2a51bf
+#: ../LICENSE.rst:19
+# 2dbbdd3e0fc6461abe2392eb1c910d36
 msgid "Neither the name of Caipirinha Spriners nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission."
 msgstr ""
 
-#: ../LICENSE.rst:20
-# 59932899238543349c4bc71be6ec070d
+#: ../LICENSE.rst:23
+# e2eb44166f054abcbfcf535c0fae2245
 msgid "THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL CAIPIRINHA SPRINTERS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
 msgstr ""
 

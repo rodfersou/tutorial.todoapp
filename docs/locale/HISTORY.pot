@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012, Caipirinha Sprinters
+# Copyright (C) 2013, Caipirinha Sprinters
 # This file is distributed under the same license as the tutorial.todoapp package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tutorial.todoapp 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-15 15:01\n"
+"POT-Creation-Date: 2013-06-06 13:36\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,43 +16,43 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../HISTORY.rst:2
-# 875e0e8b262b40619524d9479ae17012
+#: ../HISTORY.rst:5
+# 02e142d1b5f444f58628417fe2e775c9
 msgid "Changelog"
 msgstr ""
 
-#: ../HISTORY.rst:6
-# aa5b4ca3f7b24e2cb7557fed3026f2ca
+#: ../HISTORY.rst:9
+# bcdf5370231a4c9bbe113f64eda22646
 msgid "1.0 (2012-09-11)"
 msgstr ""
 
-#: ../HISTORY.rst:8
-# 08f6d30ae8394b1eb7a8ecebd6f51786
+#: ../HISTORY.rst:11
+# 4a9d076b5d694ac8b12d1d6ee68a89e6
 msgid "Acted as guinea pigs and went through the entire tutorial slowly and thoroughly. [matejc, plamut]"
 msgstr ""
 
-#: ../HISTORY.rst:12
-# 2244f286162442baa3ffe5f92ca1b3eb
+#: ../HISTORY.rst:15
+# 85e10fabca0e4b278d37e7bbbdc315a5
 msgid "AJAXifying the @@todo view. [eleddy]"
 msgstr ""
 
-#: ../HISTORY.rst:15
-# 3e8f05fa53d14bf1b3ce5b62fba498a6
+#: ../HISTORY.rst:18
+# 6ec003dd712f44c0b9bfe75ebcf5f94e
 msgid "The @@todo BrowserView for listing Todo Items. [zupo]"
 msgstr ""
 
-#: ../HISTORY.rst:18
-# 65db86e72bfa46e8895f489c83d1cbc4
+#: ../HISTORY.rst:21
+# 8053445986864fc797e1a49eea7805d8
 msgid "Tests for GenericSetup exports of content-type and workflow. [zupo]"
 msgstr ""
 
-#: ../HISTORY.rst:21
-# a26e7fccf4cf4255ad2e2c2c249e40f5
+#: ../HISTORY.rst:24
+# ab351c84bf1344d1baafd1df7d64efa4
 msgid "TTW part of the tutorial, loads of screenshots. [eleddy]"
 msgstr ""
 
-#: ../HISTORY.rst:24
-# 715eefce6acc4aef94051134c60329b4
+#: ../HISTORY.rst:27
+# ff61c59ade3b42ce96581a7c8dfc4314
 msgid "Skeleton. [zupo]"
 msgstr ""
 

@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012, Caipirinha Sprinters
+# Copyright (C) 2013, Caipirinha Sprinters
 # This file is distributed under the same license as the tutorial.todoapp package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tutorial.todoapp 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-15 15:01\n"
+"POT-Creation-Date: 2013-06-06 13:36\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,33 +16,33 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../add_plone_site.rst:3
-# c0c00575056f4e9d80c922cd3553f0ed
+#: ../add_plone_site.rst:6
+# 8a9c3628c2d14c89b9d1d1685a0fd3cc
 msgid "Create a New Plone Site"
 msgstr ""
 
-#: ../add_plone_site.rst:5
-# bbea27005a534ff7b57387336e713206
+#: ../add_plone_site.rst:8
+# d99b9cf58e5347a9994ff6917f1d2b7c
 msgid "To set up a Plone site:"
 msgstr ""
 
-#: ../add_plone_site.rst:7
-# 089a975bd15d41ffbbb47b249c6fb19c
+#: ../add_plone_site.rst:10
+# 027ee7c26f8348188e300880400fe8a0
 msgid "Log in as a zope administrator, and head over to the ZMI at ``http://localhost:8080/manage_main``. Click ``Add Plone Site``."
 msgstr ""
 
-#: ../add_plone_site.rst:13
-# b95e5365bc65463eb89496ca5d3b1b3c
+#: ../add_plone_site.rst:16
+# bf1611d3f68b42e3b049e1f887b957b2
 msgid "Change the `name` and `id` if you wish, but keep in mind that for this tutorial we will assume the name of the site is ``Plone`` and is located at ``http://localhost:8080/Plone``."
 msgstr ""
 
-#: ../add_plone_site.rst:20
-# 214feac2948443d28e13f0b285a7e310
+#: ../add_plone_site.rst:23
+# 1725dbe9e60c4ecd88283f73470c6154
 msgid "Under `Add-ons`, make sure to check ``Dexterity Content Types`` and then click ``Create Plone Site``."
 msgstr ""
 
-#: ../add_plone_site.rst:26
-# 16d075c1d1ed48059c4690288b2a22a5
+#: ../add_plone_site.rst:29
+# 35ec3fcdbafa4d2991c22859b0f0953d
 msgid "There, your Plone site is created and you can continue with the tutorial."
 msgstr ""
 
