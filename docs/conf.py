@@ -190,6 +190,6 @@ latex_documents = [(
 # If false, no module index is generated.
 #latex_use_modindex = True
 
-# translations support
-locale_dirs = ["locale/"]
-language = 'en'
+# translations support - Following these instructions: http://sphinx-doc.org/latest/intl.html
+locale_dirs = ["translated/"]
+language = 'pt_BR'
